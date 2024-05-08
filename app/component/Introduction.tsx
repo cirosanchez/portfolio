@@ -9,6 +9,7 @@ export default function Introduction(){
     return (
         <div id={"#"}>
             <div className={"pt-20 pl-40 mb-3 font-extrabold text-7xl"}>
+                {/* eslint-disable-next-line react/no-unescaped-entities */}
                 👋 i'm Ciro
             </div>
             <div className={"relative left-44 font-medium text-xl"}>
