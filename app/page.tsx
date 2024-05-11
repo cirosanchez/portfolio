@@ -1,9 +1,9 @@
 import Introduction from "@/app/component/Introduction";
-import AboutMe from "@/app/component/AboutMe";
+
 
 export default function Home() {
   return (
-    <main>
+    <main className={"overflow-hidden"}>
       <div className="flex flex-row p-4 justify-around bg-zinc-800">
           <div className={"flex flex-row gap-1.5 absolute left-4"}>
               <svg color={"#4ade80"} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
