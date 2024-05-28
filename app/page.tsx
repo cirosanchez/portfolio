@@ -1,5 +1,6 @@
 import Introduction from "@/app/component/Introduction";
 
+export const runtime = "edge";
 
 export default function Home() {
   return (
